@@ -26,8 +26,13 @@ public class AdminController {
 	public ResponseEntity<Admin> saveAdmin(@Valid @RequestBody Admin admin) throws AdminException {
 		
 		Admin savedAdmin= adminService.createAdmin(admin);
+		System.out.println("10000");
+		System.out.println("200");
 		
 		return new ResponseEntity<Admin>(savedAdmin,HttpStatus.CREATED);
+
+
+
 	}
 	
 	@PutMapping("/admin")
