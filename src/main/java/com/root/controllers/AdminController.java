@@ -30,6 +30,7 @@ public class AdminController {
 		System.out.println("200");
 		System.out.println("10000");
 		System.out.println("200");
+		System.out.println("20");
 		
 		return new ResponseEntity<Admin>(savedAdmin,HttpStatus.CREATED);
 
