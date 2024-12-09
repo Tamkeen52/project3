@@ -28,6 +28,8 @@ public class AdminController {
 		Admin savedAdmin= adminService.createAdmin(admin);
 		System.out.println("10000");
 		System.out.println("200");
+		System.out.println("10000");
+		System.out.println("200");
 		
 		return new ResponseEntity<Admin>(savedAdmin,HttpStatus.CREATED);
 
